@@ -1,0 +1,82 @@
+@media screen and (max-width:576px) {
+    .header nav {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    ul {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+    }
+    .journey-influencer {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .journey-influencer .pic-camera img{
+        height: 200px;
+        width: 200px;
+        margin-left: -80px;
+        margin-top: -50px; 
+       
+    }
+    .journey-influencer .journey-feature{
+        margin-left: -100px;
+        margin-top: -10px;
+    }
+    .journey-influencer .journey-feature .title{
+        font-size: 40px;
+    }
+    .icon {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        height: 100px;
+        margin-top: 200px;
+        margin-bottom: 200px;
+        margin-left: 150px;
+        flex-direction: column-reverse;
+    }
+    .popularcontainer 
+    .popular-collection {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-column-gap: 14px;
+        box-shadow: 10px 5px 5px;
+        /* margin-right: 800px; */
+    }
+    .popularcontainer{
+        margin-top: 150px;
+        margin-left: 50px;
+        max-width: 00px;
+    }
+    .popularcontainer h4{
+        text-align: right;
+        color: red;
+    }
+   .freture-product {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            margin: 60px 165px;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+        }
+        .freture-product .pic img{
+            height: 200px;
+            width: 200px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .freture-product .feature{
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: -200px;
+        }
+
+}
